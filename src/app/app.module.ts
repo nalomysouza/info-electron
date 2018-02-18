@@ -1,16 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { InformativeComponent } from './informative/informative.component';
 import { NgModule } from '@angular/core';
-
-
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
+
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InformativeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

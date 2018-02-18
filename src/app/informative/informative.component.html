@@ -1,0 +1,15 @@
+<div>
+  <h2>Question : </h2>
+   <div *ngIf="informative && informative.length">
+   <div *ngFor="let info of informative; let idx = index"><br/>
+    <div>{{info.id}}</div>
+    <div>{{info.author}}</div>
+    <div>{{info.mail}}</div>
+    <div>{{info.avatar}}</div>
+    <div>{{info.subject}}</div>
+    <div>{{info.content}}</div>
+    <div>{{info.createIn}}</div>
+    <div>{{info.expiresIn}}</div>
+   </div>
+  </div>
+ </div>
