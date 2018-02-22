@@ -1,0 +1,26 @@
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.list-informative {
+    padding: 1.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-left-width: .01rem;
+    border-radius: .05rem;
+}
+
+.content-informative{
+    padding: 1.25rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-left-width: .01rem;
+    border-radius: .05rem;
+}
